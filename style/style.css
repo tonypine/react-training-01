@@ -1,0 +1,47 @@
+body {
+  margin: 50px 0;
+  background-color: #222f3e;
+  color: #fff;
+}
+
+/* BOOTSTRAP OVERRIDE */
+.btn-primary {
+  background-color: #5f27cd;
+  border-color: #5f27cd;
+}
+
+.btn-primary:hover {
+  background-color: #341f97;
+  border-color: #341f97;
+}
+
+/* SEARCH BAR */
+.searchBar {
+  margin-bottom: 25px;
+}
+
+/* VIDEO LIST */
+.videoList {
+  list-style: none;
+}
+.videoItem {
+  cursor: pointer;
+  list-style: none;
+}
+.videoItem + .videoItem {
+  margin-top: 10px;
+}
+.list-group-item {
+  background: none;
+  border: none;
+}
+
+
+/* VIDEO DETAILS */
+.details {
+  padding-top: 25px;
+}
+
+.video-title {
+  margin-bottom: 20px;
+}
