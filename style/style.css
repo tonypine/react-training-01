@@ -35,6 +35,10 @@ body {
   background: none;
   border: none;
 }
+.media-left img {
+  width: 120px;
+  height: 90px;
+}
 
 
 /* VIDEO DETAILS */
